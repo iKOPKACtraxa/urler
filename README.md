@@ -4,3 +4,4 @@ How to use:
 1) Clone repo
 2) Run "go build" in repository
 3) Run "./urler -tg-bot-token \<telegram token from your bot\>"
+4) Go to your bot
