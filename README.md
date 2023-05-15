@@ -7,9 +7,18 @@ Later, when you have more time you can take one of URLs. The item takes randomly
 
 How to use:
 1) Clone repo
-2) Run "go build" in repository
-3) Run "./urler -tg-bot-token \<telegram token from your bot\>"
-4) Go to your bot
+
+    2.1 Run **go build** in repository
+    
+    2.2 Run **./urler -tg-bot-token \<telegram token from your bot\>**
+
+    OR
+
+    2.1 Run **docker build -t urler ./**
+    
+    2.2 Run **docker run urler -tg-bot-token \<telegram token from your bot\>**
+
+3) Go to your bot
+
 OR
-2) Run docker build -t urler ./
-3) Run docker run urler -tg-bot-token \<telegram token from your bot\>
+
